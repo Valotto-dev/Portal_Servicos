@@ -1,0 +1,263 @@
+/* Configurações gerais */
+
+body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    background-color: #f4f6f8;
+
+    color: #222222;
+
+    line-height: 1.6;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #173d60;
+
+    color: white;
+
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 30px 20px;
+}
+
+.cabecalho h1 {
+    margin: 0;
+
+    font-size: 50px;
+}
+
+.cabecalho h1 span {
+    color: #62b0ff;
+}
+
+.cabecalho p {
+    margin-bottom: 0;
+
+    font-size: 25px;
+}
+
+
+/* Menu */
+
+nav {
+    background-color: #102f4a;
+
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #62b0ff;
+}
+
+
+/* Conteúdo principal */
+
+main {
+    width: 90%;
+
+    max-width: 1000px;
+
+    margin: 30px auto;
+}
+
+
+/* Seções */
+
+section {
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #173d60;
+
+    margin-top: 0;
+}
+
+
+/* Apresentação */
+
+.apresentacao {
+    text-align: center;
+}
+
+.apresentacao p {
+    max-width: 800px;
+
+    margin: 0 auto 20px;
+}
+
+.apresentacao img {
+    max-width: 100%;
+
+    height: auto;
+
+    border-radius: 8px;
+
+    margin-top: 15px;
+}
+
+
+/* Cards */
+
+.cards {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 18px;
+}
+
+.card {
+    flex: 1;
+
+    min-width: 200px;
+
+    padding: 20px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 8px;
+
+    background-color: #f8fafc;
+}
+
+.card h3 {
+    color: #173d60;
+
+    margin-top: 0;
+}
+
+.card p {
+    color: #555555;
+}
+
+.card:hover {
+    border-color: #62b0ff;
+
+    box-shadow: 0 3px 8px #dddddd;
+}
+
+
+/* Seção de destaque */
+
+.destaque {
+    background-color: #eaf4ff;
+
+    border-color: #c5e2ff;
+}
+
+.destaque ul {
+    padding-left: 20px;
+}
+
+.destaque li {
+    margin-bottom: 8px;
+}
+
+
+/* Seção de prompts */
+
+.prompts {
+    background-color: #173d60;
+
+    color: white;
+}
+
+.prompts h2 {
+    color: white;
+}
+
+.prompts p {
+    color: #e2e8f0;
+}
+
+.exemplo {
+    background-color: #102f4a;
+
+    padding: 18px;
+
+    margin-top: 20px;
+
+    border-radius: 8px;
+
+    border-left: 4px solid #62b0ff;
+}
+
+.exemplo h3 {
+    color: #62b0ff;
+
+    margin-top: 0;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #102f4a;
+
+    color: #cccccc;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+
+    .cabecalho h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+
+        margin: 8px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+}
