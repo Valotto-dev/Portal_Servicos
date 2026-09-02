@@ -37,6 +37,12 @@ header {
     color: #62b0ff;
 }
 
+.cabecalho h1 a {
+    color: inherit;
+
+    text-decoration: none;
+}
+
 .cabecalho p {
     margin-bottom: 0;
 
